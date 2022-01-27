@@ -3,7 +3,8 @@ const path = require("path");
 const fs = require("fs");
 const noteData = require("./db/db.json"); // Helper method for generating unique ids
 const uuid = require("./helpers/uuid");
-const {readAndAppend} = require('./helpers/fsUtils');
+const { readAndAppend } = require('./helpers/fsUtils');
+
 
 const PORT = process.env.PORT || 3001;
 
